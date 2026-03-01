@@ -80,22 +80,27 @@ def generate_image(prompt):
             "authorization": f"Bearer {LEONARDO_API_KEY}"
         }
         
-        # Улучшенные параметры для генерации
         payload = {
-            "height": 1024,  # Увеличил размер для лучшего качества
-            "width": 1024,
-            "modelId": "6bef9f1b-29cb-40c7-b9df-32b51c1f67d3",  # Phoenix модель
-            "prompt": english_prompt,
-            "num_images": 1,
-            "presetStyle": "DYNAMIC",  # Добавил стиль
-            "contrast": 3.5,  # Добавил контраст
-            "public": False,  # Приватная генерация
-            "scheduler": "DPMSolverMultistepScheduler",  # Улучшенный scheduler
-            "guidance_scale": 7,  # Контроль следования промпту
-            "num_inference_steps": 30  # Больше шагов = лучше качество
-        }
+        "prompt": prompt,
+        "width": 1024,
+        "height": 1024,
+        "num_images": 1,
+        "modelId": "7b592283-e8a7-4c5a-9ba6-d18c31f258b9",
+        "seed": 1994276235,
+        "sd_version": "KINO_2_1",
+        "alchemy": False,
+        "promptMagic": False,
+        "highContrast": False,
+        "transparency": "disabled",
+        "ultra": False,
+        "public": True,
+        "styleUUID": "111dc692-d470-4eec-b791-3475abac4c46",
+        "elements": [],
+        "userElements": [],
+        "controlnets": [],
+        "contextImages": []
+    }
         
-        # Отправка запроса на генерацию
         response = requests.post(url, json=payload, headers=headers)
         if response.status_code != 200:
             print(f"Ошибка при создании задачи: {response.status_code}")
