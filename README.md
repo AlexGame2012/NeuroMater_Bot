@@ -19,19 +19,22 @@
 
 ---
 
-## 👨‍💻 Автор
+## 👨‍💻 Авторы
 
 <table>
   <tr>
-    <td>
-      <img src="https://github.com/AlexGame2012.png" width="100px" style="border-radius: 50%">
-    </td>
-    <td>
+    <td align="center">
+      <img src="https://github.com/AlexGame2012.png" width="100px" style="border-radius: 50%"><br>
       <strong>AlexStudio Code</strong><br>
       💻 Разработчик<br>
-      📍 Россия<br>
       <a href="https://alexstudiocode.ru">🌐 Сайт</a> • 
       <a href="https://t.me/AlexStudioCode">📱 Telegram</a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/FloxHant.png" width="100px" style="border-radius: 50%"><br>
+      <strong>FloxHant</strong><br>
+      💻 Разработчик<br>
+      <a href="https://github.com/FloxHant">🐙 GitHub</a>
     </td>
   </tr>
 </table>
@@ -126,13 +129,25 @@ Pillow
 
 ## 📱 Контакты
 
-<div align="center">
-
-[![Website](https://img.shields.io/badge/Сайт-alexstudiocode.ru-blue?style=for-the-badge&logo=google-chrome)](https://alexstudiocode.ru)
-[![Telegram](https://img.shields.io/badge/Telegram-@AlexStudioCode-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/AlexStudioCode)
-[![GitHub](https://img.shields.io/badge/GitHub-AlexGame2012-181717?style=for-the-badge&logo=github)](https://github.com/AlexGame2012)
-
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://alexstudiocode.ru">
+        <img src="https://img.shields.io/badge/Сайт-alexstudiocode.ru-blue?style=for-the-badge&logo=google-chrome" alt="Website">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://t.me/AlexStudioCode">
+        <img src="https://img.shields.io/badge/Telegram-@AlexStudioCode-26A5E4?style=for-the-badge&logo=telegram" alt="Telegram">
+      </a>
+    </td>
+    <td align="center">
+      <a href="mailto:info@alexstudiocode.ru">
+        <img src="https://img.shields.io/badge/Email-info@alexstudiocode.ru-red?style=for-the-badge&logo=gmail" alt="Email">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
